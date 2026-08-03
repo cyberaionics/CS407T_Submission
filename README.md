@@ -307,19 +307,14 @@ Classification
 ---
 
 ## 👨‍💻 Team
- _______________________________________
-|        Name       |       Role        |
-|-------------------|-------------------|
-| Ankush Tarafdar   |                   |
-|-------------------|-------------------|
-| Manish Patil      |                   |
-|-------------------|-------------------|
-| Placeholder       |                   |
-|-------------------|-------------------|
-| Placeholder       |                   |
-|-------------------|-------------------|
-| Placeholder       |                   |
-|___________________|___________________|
+
+| Name | Responsibility |
+|------|----------------|
+| Member 1 | Dataset Collection |
+| Member 2 | Mathematical Analysis |
+| Member 3 | Backend Development |
+| Member 4 | Frontend Development |
+
 ---
 
 ## 📚 References

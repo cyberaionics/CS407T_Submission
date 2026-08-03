@@ -100,39 +100,43 @@ Example:
 
 The algorithms implemented in this project rely on several mathematical concepts:
 
-### Linear Regression
+# Mathematical Background
 
-\[
-\hat{y}=Xw+b
-\]
+## Linear Regression
 
-Loss Function
+Prediction
 
-\[
-J(w)=\frac{1}{2m}\sum_{i=1}^{m}(y_i-\hat{y}_i)^2
-\]
+```text
+ŷ = Xw + b
+```
+
+Loss Function (Mean Squared Error)
+
+```text
+J(w) = (1 / 2m) Σ (yi − ŷi)²
+```
 
 Gradient
 
-\[
-\nabla J(w)=\frac{1}{m}X^T(Xw-y)
-\]
+```text
+∇J(w) = (1 / m) Xᵀ(Xw − y)
+```
 
 ---
 
-### Logistic Regression
+## Logistic Regression
 
 Sigmoid Function
 
-\[
-\sigma(z)=\frac{1}{1+e^{-z}}
-\]
+```text
+σ(z) = 1 / (1 + e^(−z))
+```
 
-Binary Cross Entropy Loss
+Binary Cross Entropy
 
-\[
-L=-y\log(\hat y)-(1-y)\log(1-\hat y)
-\]
+```text
+L = −y log(ŷ) − (1 − y) log(1 − ŷ)
+```
 
 ---
 
